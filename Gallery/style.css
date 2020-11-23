@@ -1,0 +1,78 @@
+<style>
+html { 
+      font-size: 62.5%; 
+      font-family: "helvetica neue";
+}
+
+body {
+      background-color: black;
+      color: white;
+      display: grid;
+      grid-template-columns: repeat(6,100vw);
+      height: 100vh;  
+}
+
+iframe {
+      width: 30vw;
+      height: 30vw;
+      margin: 5vw auto;
+}
+
+header, section, footer {
+      box-sizing: border-box;
+      padding: 5vw;
+      position: relative;
+}
+
+section:nth-child(even) {
+      background-color: #000;
+}
+
+h1 {
+      font-size: 2.8em;
+      font-weight: 900;
+}
+
+h2 {
+      font-size: 2.4em;
+}
+
+h3 {
+      margin-top: 1.5em;
+      font-size: 1.75em;
+}
+
+/*
+.test {
+      background-color: transparent;
+      width: 30vw;
+      height: 30vw;
+      position: relative;
+      top: -35vw;
+      box-sizing: border-box;
+      border: 1px solid yellow;   
+}
+
+*/
+
+
+.pijlenNavigatie {
+      position: absolute;
+      bottom: 5vw;
+      right: 5vw;
+}
+
+.pijlenNavigatie a {
+      text-decoration: none;
+      color: white;
+      font-size: 2.6rem;
+}
+
+header .naarLinks, footer .naarRechts {
+      display: none;
+}
+
+.naarRechts {
+      margin-left: 2rem;
+}
+</style>
